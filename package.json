@@ -1,0 +1,26 @@
+{
+  "name": "greendoor",
+  "version": "1.0.0",
+  "description": "greendoor =========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onlyandrewn/greendoor.git"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "andrew nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onlyandrewn/greendoor/issues"
+  },
+  "homepage": "https://github.com/onlyandrewn/greendoor",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "watch": "^0.13.0"
+  }
+}

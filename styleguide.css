@@ -1,0 +1,160 @@
+/*----------------------------------
+SASS
+----------------------------------*/
+/*----------------------------------
+TYPOGRAPHY 
+----------------------------------*/
+h2, h3, h4, h5, h6 {
+  color: #282828;
+  font-family: "Lora", serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 35px;
+ /* text-align: center;
+  top: -19px;
+  display: inline;
+  position: relative;*/
+  /*padding: 0 20px;*/
+  background: #efdfc5;
+}
+
+/*main headings*/
+.keyline {
+  width: 100%;
+  height: 0;
+  border-top: 2px solid #282828;
+  border-bottom: 2px solid #282828;
+  text-align: center;
+}
+
+h3 {
+  font-size: 35px;
+  text-align: left;
+}
+
+/* blog post titles*/
+h4 {
+  font-size: 25px;
+  text-decoration: underline;
+  /*text-align: center;*/
+}
+
+/*menu sections*/
+h5 {
+  font-size: 25px;
+  text-align: left;
+}
+
+/*blog author*/
+h6 {
+  font-size: 18px;
+  text-align: left;
+}
+
+/*menu items*/
+/*----------------------------------
+GENERAL PARAGRAPHS
+----------------------------------*/
+p {
+  color: #282828;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  /*line-height: 1.8;*/
+}
+
+p.price {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  /*line-height: 2.2;*/
+}
+
+p.newsletter {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  font-weight: 700;
+  /*line-height: 1.5;*/
+}
+
+p.credits {
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  font-weight: 700;
+  /*line-height: 1.8;*/
+}
+
+p.datetime {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italics;
+  /*line-height: 1.7;*/
+}
+
+p.bio {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italics;
+  line-height: 2;
+}
+
+/*----------------------------------
+BLOCKQUOTES
+----------------------------------*/
+blockquote.home {
+  font-family: "Lora", serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: center;
+}
+
+blockquote.blog {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 38px;
+  text-align: center;
+}
+
+/*----------------------------------
+ICONS
+----------------------------------*/
+.icon-leaf, .icon-leafalt, .icon-tree, .icon-threetrees, .icon-scale, .icon-scalealt, .icon-tupperware {
+  width: 75px;
+  height: 75px;
+}
+
+.icon-twitter, .icon-facebook, .icon-instagram {
+  color: #282828;
+  width: 75px;
+  height: 75px;
+}
+
+/*----------------------------------
+BUTTONS
+----------------------------------*/
+/*----------------------------------
+COMPONENTS 
+----------------------------------*/
+body {
+  background: #efdfc5;
+}
+
+/*----------------------------------
+IMAGE SIZES
+----------------------------------*/
+/*Small*/
+/*Medium*/
+/*Large*/
+/*----------------------------------
+LAYOUT
+----------------------------------*/
+/*To be filled out later*/
