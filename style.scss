@@ -7,6 +7,13 @@ Author: Andrew Nguyen and Kristine Planche
 Author URI: https://github.com/onlyandrewn/
 */
 
+  $lightgreen: #5ABA52;
+  $darkgreen: #055f33;
+  $white: #efdfc5;
+  $purple: #352b49;
+  $red: #f74d3c;
+  $orange: #f49231;
+  $black: #282828;
 
 /* =============================================================================
                    Normalize, border box and clearfix
@@ -501,4 +508,40 @@ BLOG/ SINGLE PAGE
   font-weight: 400;
   font-style: italics;
   line-height: 2;
+}
+
+/* ------------------------
+HEADER TEXT STYLING
+------------------------- */
+
+h2 {
+
+  font-family: "Lora", "Times New Roman", Times, Georgia, serif;
+  font-size: 35px;
+  color: $black;
+
+  &, &:before, &:after {
+    display: flex;
+    white-space: nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1;
+  }
+
+  &:before, &:after {
+    content: '';
+    margin: 22px 0 0 0;
+    border-top: 4px solid $lightgreen;
+  }
+
+  &:before {
+    margin-right: 10px;
+  }
+
+  &:after {
+    margin-left: 10px;
+  }
+
+
+
 }
