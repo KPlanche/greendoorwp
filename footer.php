@@ -5,7 +5,7 @@
 	<div class="contents">
 		<div class="wrapper">
 		<div class="map">
-			<img src="http://placehold.it/500x300" alt="">
+			<?php echo do_shortcode ("[ready_google_map id='1']"); ?>
 		</div><!-- /.map -->
 	    <div class="info">
 		    <h6 class="resto">The Green Door</h6>
@@ -18,7 +18,12 @@
 			<p class="open">Tuesday to Sunday 11am - 9pm</p>
 			<p class="open">Monday - Closed</p>
 
-			<img src="http://placehold.it/150x75" alt="" class="trip">
+			<img src="http://placehold.it/125x75" alt="" class="trip">
+				<div class="socialmediafooter">
+				  <i class="single foot fa fa-twitter"></i>
+				  <i class="single foot fa fa-facebook"></i>
+				  <i class="single foot fa fa-instagram"></i>
+				</div><!-- /.socialmedia -->
 		</div><!-- /.info -->
 		
 		<div class="newsletter-signup">
