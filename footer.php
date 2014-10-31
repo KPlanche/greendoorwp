@@ -5,8 +5,8 @@
 	<div class="contents foot-wrap">
 		<div class="wrapper clearfix">
 		<div class="map">
-			<?php //echo do_shortcode ("[ready_google_map id='1']"); ?>
-			<img src="http://placehold.it/500x300" alt="">
+			<?php echo do_shortcode ("[ready_google_map id='1']"); ?>
+			<!-- <img src="http://placehold.it/500x300" alt=""> -->
 		</div><!-- /.map -->
 	    <div class="info">
 		    <h6 class="resto">The Green Door</h6>
