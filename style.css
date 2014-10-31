@@ -1,7 +1,7 @@
 /*
-Theme Name: Vegetarian Restaurant (Green Door Restaurant) 
+Theme Name: Green Door 
 Theme URI: https://github.com/onlyandrewn/
-Description: A delicious theme for any restaurant. Created by Andrew Nguyen and Kristine Planche.
+Description: A delicious theme for any restaurant. Created by Andrew Nguyen and Kristine Planche
 Version: 1.0
 Author: Andrew Nguyen and Kristine Planche
 Author URI: https://github.com/onlyandrewn/
@@ -217,35 +217,12 @@ FONTS
                    Default Styling
    ========================================================================== */
 body {
-<<<<<<< HEAD
-  color:#282828;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Verdana, sans-serif;
-=======
   color: #333;
->>>>>>> 2ab5a0436c033849c8367d20837135c3aefdbfd2
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.home {
-  background: #055f33;
-  color: #fff;
-  height: 100%;
-  background: url('img/website/2459846_orig.jpg')fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-/*  padding-bottom: 320px;*/
-}
-
-img.logo {
-  width: 10%;
-  text-align: center;
-  margin-top: 40px;
-  position: relative;
-  left: 46%;
 }
 
 .content {
@@ -258,61 +235,6 @@ img.logo {
   width: 100%;
 }
 
-h1 {
-  font-family: "Lora", "Times New Roman", Times, Georgia, serif;
-  color: #282828;
-  font-size: 35px;
-  text-align: center;
-  padding: 0 20px;
-}
-
-h1.head-text a {
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-h2 {
-  font-family: ""
-  font-size: 35px;
-  text-align: center;
-  /*display: inline-block;*/
-  padding: 10px 15px;
-  background: #5ABA52;
-  color: #fff;
-}
-
-/*h2 {
-  font-size: 35px;
-  text-align: center;
-  top: -25px;
-  display: inline-block;
-  position: relative;
-  padding: 0 20px;
-  width: 100%;
-}
-
-  h2:before {
-    content: ""; 
-    position: absolute; 
-    top: 50%;
-    width: 100%;
-    height: 0;
-    display: inline-block;
-    border-top: solid 2px #5ABA52;
-    border-bottom: solid 2px #5ABA52; 
-    left: 0;
-    z-index: -1;
-  }
-
-  h2:before {
-    right: 100%;
-  }
-
-  h2 span {
-    background: #fff;
-    padding: 0 20px;
-  }*/
-
 /* links */
 a {
   color: #BA209B;
@@ -320,21 +242,16 @@ a {
 }
 
 a:hover {
-  color: #5ABA52;
+  color: #D424B1;
 }
 
 /* paragraphs */
 p {
-  color: #282828;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Verdana, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 /*blockquotes*/
 blockquote {
-  text-align: center;
   background: #F7F7F7;
   margin: 0;
   padding: 20px;
@@ -343,16 +260,6 @@ blockquote {
 blockquote p {
   margin-top: 0;
 }
-<<<<<<< HEAD
-  blockquote p {
-    margin-top: 0;
-    font-family: "Lora", "Times New Roman", Times, Georgia, serif;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 55px;
-  }
-=======
->>>>>>> 2ab5a0436c033849c8367d20837135c3aefdbfd2
 
 /*tables*/
 table td {
@@ -528,25 +435,22 @@ a.signuplink:visited {
 /* =============================================================================
                    Navigation
    ========================================================================== */
-  ul.menu {
-    margin-bottom: 100px;
-    padding:0;
-    text-align: center;
-  }
-    ul.menu li {
-      display:inline;
-      margin-right: 10px;
-    }
+ul.menu {
+  margin: 0;
+  padding: 0;
+}
 
-      ul.menu li a {
-        font-family: "Lora", "Times New Roman", Times, Georgia, serif;
-        font-weight: 700;
-        background:#fff;
-        padding:10px;
-        color:#055f33;
-        border-radius: 5px;
-      }
+ul.menu li {
+  display: inline;
+  margin-right: 10px;
+}
 
+ul.menu li a {
+  color: #333;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
 
 /* =============================================================================
                    Comment Styling
@@ -849,4 +753,31 @@ BLOG/ SINGLE PAGE
   font-weight: 400;
   font-style: italics;
   line-height: 2;
+}
+
+/* ------------------------
+HEADER TEXT STYLING
+------------------------- */
+h2 {
+  font-family: "Lora", "Times New Roman", Times, Georgia, serif;
+  font-size: 35px;
+  color: #282828;
+}
+h2, h2:before, h2:after {
+  display: flex;
+  white-space: nowrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 1;
+}
+h2:before, h2:after {
+  content: '';
+  margin: 22px 0 0 0;
+  border-top: 4px solid #5aba52;
+}
+h2:before {
+  margin-right: 10px;
+}
+h2:after {
+  margin-left: 10px;
 }
