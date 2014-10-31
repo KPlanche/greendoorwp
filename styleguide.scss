@@ -3,13 +3,26 @@ SASS
 ----------------------------------*/
 
 // Variables
-	$green: #055f33;
 	$lightgreen: #5ABA52;
+	$darkgreen: #055f33;
 	$white: #efdfc5;
 	$purple: #352b49;
 	$red: #f74d3c;
 	$orange: #f49231;
 	$black: #282828;
+
+/*----------------------------------
+STYLE GUIDE
+----------------------------------*/
+
+body {
+	background: #fff;
+}
+
+hr {
+	width: 80%;
+}
+
 
 /*----------------------------------
 TYPOGRAPHY 
@@ -25,12 +38,12 @@ h2, h3, h4, h5, h6 {
 
 h2 { 
 	font-size: 35px;
-	text-align: center;
-	top: -19px;
-	display: inline;
-	position: relative;
-	padding: 0 20px;
-	background: #efdfc5; 
+	// text-align: center;
+	// top: -19px;
+	// display: inline;
+	// position: relative;
+	// padding: 0 20px;
+	// background: #efdfc5; 
 } /*main headings*/
 
 h3 {
@@ -41,7 +54,7 @@ h3 {
 h4 {
 	font-size: 25px;
 	text-decoration: underline;
-	text-align: center;
+	// text-align: center;
 } /*menu sections*/
 
 h5 {
@@ -53,6 +66,23 @@ h6 {
 	font-size: 18px;
 	text-align: left;
 } /*menu items*/
+
+/*----------------------------------
+GENERAL PARAGRAPHS
+----------------------------------*/
+
+div.inverted {
+	background: $darkgreen;
+	padding: 25px;
+}
+
+p.inverted {
+	color: #fff;
+}
+
+.itext {
+	color: #fff;
+}
 
 /*----------------------------------
 GENERAL PARAGRAPHS
@@ -112,23 +142,27 @@ blockquote.home {
 	font-size: 35px;
 	font-weight: 700;
 	line-height: 55px;
-	text-align: center;
+	// text-align: center;
 }
 
 blockquote.blog {
 	font-family: "Lora", serif;
-	font-size: 24px;
+	font-size: 25px;
 	font-weight: 400;
 	font-style: italic;
 	line-height: 38px;
-	text-align: center;
+	// text-align: center;
 }
 
 /*----------------------------------
 ICONS
 ----------------------------------*/
+.icon {
+	display: inline-block;
+	width: 25%;
+}
 
-.icon-leaf, .icon-leafalt, .icon-tree, .icon-threetrees, .icon-scale, .icon-scalealt, .icon-tupperware  {
+.leaf, .leafalt, .tree, .threetrees, .scale, .scalealt, .tupperware  {
 	width: 75px;
 	height: 75px;
 }
@@ -144,7 +178,8 @@ BUTTONS
 ----------------------------------*/
 
 .buynow {
-
+	background: $lightgreen;
+	color: #fff;
 }
 
 .readmore {
@@ -166,10 +201,6 @@ BUTTONS
 /*----------------------------------
 COMPONENTS 
 ----------------------------------*/
-
-body {
-	background: #efdfc5;
-}
 
 .nav-main {
 

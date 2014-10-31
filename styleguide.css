@@ -1,9 +1,15 @@
 /*----------------------------------
 SASS
 ----------------------------------*/
-
+/*----------------------------------
+STYLE GUIDE
+----------------------------------*/
 body {
-  background: #bada55;
+  background: #fff;
+}
+
+hr {
+  width: 80%;
 }
 
 /*----------------------------------
@@ -19,12 +25,6 @@ h2, h3, h4, h5, h6 {
 
 h2 {
   font-size: 35px;
- /* text-align: center;
-  top: -19px;
-  display: inline;
-  position: relative;*/
-  /*padding: 0 20px;*/
-  background: #efdfc5;
 }
 
 /*main headings*/
@@ -45,7 +45,6 @@ h3 {
 h4 {
   font-size: 25px;
   text-decoration: underline;
-  /*text-align: center;*/
 }
 
 /*menu sections*/
@@ -64,46 +63,62 @@ h6 {
 /*----------------------------------
 GENERAL PARAGRAPHS
 ----------------------------------*/
+div.inverted {
+  background: #055f33;
+  padding: 25px;
+}
+
+p.inverted {
+  color: #fff;
+}
+
+.itext {
+  color: #fff;
+}
+
+/*----------------------------------
+GENERAL PARAGRAPHS
+----------------------------------*/
 p {
   color: #282828;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  /*line-height: 1.8;*/
+  line-height: 1.8;
 }
 
 p.price {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Lora', serif;
+  font-size: 25px;
   font-weight: 700;
-  /*line-height: 2.2;*/
+  line-height: 2.2;
 }
 
 p.newsletter {
   font-family: 'Lora', serif;
   font-size: 14px;
   font-weight: 700;
-  /*line-height: 1.5;*/
+  line-height: 1.5;
 }
 
 p.credits {
   font-family: 'Lora', serif;
   font-size: 12px;
   font-weight: 700;
-  /*line-height: 1.8;*/
+  line-height: 1.8;
 }
 
 p.datetime {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: italics;
-  /*line-height: 1.7;*/
+  line-height: 1.7;
 }
 
 p.bio {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-style: italics;
   line-height: 2;
@@ -117,22 +132,25 @@ blockquote.home {
   font-size: 35px;
   font-weight: 700;
   line-height: 55px;
-  text-align: center;
 }
 
 blockquote.blog {
   font-family: "Lora", serif;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 400;
   font-style: italic;
   line-height: 38px;
-  text-align: center;
 }
 
 /*----------------------------------
 ICONS
 ----------------------------------*/
-.icon-leaf, .icon-leafalt, .icon-tree, .icon-threetrees, .icon-scale, .icon-scalealt, .icon-tupperware {
+.icon {
+  display: inline-block;
+  width: 25%;
+}
+
+.leaf, .leafalt, .tree, .threetrees, .scale, .scalealt, .tupperware {
   width: 75px;
   height: 75px;
 }
@@ -146,13 +164,14 @@ ICONS
 /*----------------------------------
 BUTTONS
 ----------------------------------*/
+.buynow {
+  background: #5aba52;
+  color: #fff;
+}
+
 /*----------------------------------
 COMPONENTS 
 ----------------------------------*/
-body {
-  background: #efdfc5;
-}
-
 /*----------------------------------
 IMAGE SIZES
 ----------------------------------*/
