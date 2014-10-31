@@ -2,10 +2,11 @@
   <div class="container clearfix">
     <h2 class="contactus">Contact Us</h2>
 
-	<div class="contents">
-		<div class="wrapper">
+	<div class="contents foot-wrap">
+		<div class="wrapper clearfix">
 		<div class="map">
-			<?php echo do_shortcode ("[ready_google_map id='1']"); ?>
+			<?php //echo do_shortcode ("[ready_google_map id='1']"); ?>
+			<img src="http://placehold.it/500x300" alt="">
 		</div><!-- /.map -->
 	    <div class="info">
 		    <h6 class="resto">The Green Door</h6>
@@ -25,15 +26,16 @@
 				  <i class="single foot fa fa-instagram"></i>
 				</div><!-- /.socialmedia -->
 		</div><!-- /.info -->
-		
+
 		<div class="newsletter-signup">
 			<p class="newsletter clearfix">Sign up for our newsletter</p>
 		    <div class="buttonoutside">
 			    <button class="signup"><a href="" class="signuplink">Sign Up</a></button>
 		    </div><!-- /.buttonoutside -->
 	    </div><!-- /.newsletter-signup -->
+	    </div> <!-- /.wrapper -->
 	    <p class="credits">Template by Kristine Planche and Andrew Nguyen</p>
-	    </div><!-- /.wrapper -->
+
 	</div><!-- /.contents -->
 	
   </div>

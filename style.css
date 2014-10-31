@@ -357,10 +357,13 @@ footer {
   top: 10px;
   font-family: 'Lora', serif;
   font-weight: 700;
+  text-align: left;
 }
 
 .newsletter-signup {
   position: relative;
+  width: 62%;
+  margin: 0 auto;
 }
 
 .credits {
@@ -394,7 +397,7 @@ a.signuplink:visited {
   border: 2px solid #5aba52;
   padding: 5px;
   padding-bottom: 35px;
-  width: 40%;
+  width: 65%;
   border-radius: 5px;
   position: relative;
 }
@@ -407,14 +410,17 @@ a.signuplink:visited {
 }
 
 .map {
-  float: left;
   width: 40%;
+  display: inline-block;
 }
 
 .info {
-  float: left;
   margin-left: 20px;
   width: 20%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  text-align: left;
 }
 
 .contents {
@@ -426,6 +432,12 @@ a.signuplink:visited {
 .wrapper {
   margin: 0 auto;
   width: 100%;
+}
+
+.foot-wrap {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
 }
 
 .trip {
