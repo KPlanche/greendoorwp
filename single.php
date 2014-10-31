@@ -11,7 +11,7 @@
         <div class="authorsection">
             <div class="entry-meta">
             <div class="authorimg">
-              <?php echo get_avatar ("info@andrewnguyen.ca", 150); ?>
+              <?php echo get_avatar (get_the_author_meta('ID'), 150); ?>
             </div><!-- /.authorimg -->
               <?php // hackeryou_posted_on(); ?>
 
@@ -19,23 +19,27 @@
               <?php the_author_posts_link(); ?>
             </div><!-- /.authorname -->
 
+            <div class="authorbio">
+              <?php echo get_the_author_meta("description"); ?>
+            </div><!-- /.authorbio -->
+
             <div class="socialmedia">
-              <img src="placehold.it/50x50" alt="" class="iconsmall">
-              <img src="placehold.it/50x50" alt="" class="iconsmall">
-              <img src="placehold.it/50x50" alt="" class="iconsmall">
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-instagram"></i>
             </div><!-- /.socialmedia -->
           </div><!-- /.authorsection -->
 
        
           <div class="datetitle">
             <div class="date">
-              <?php the_date ('F d, Y a'); ?>
+              <?php the_date ('F d, Y'); ?> @<?php the_time (' g:i a')?>
             </div><!-- /.date -->
 
             <div class="title">
              <div class="contenttitle">
               <h1 class="entry-title"><?php the_title(); ?></h1>
-             </div><!-- /.contentsection -->
+             </div><!-- /.contenttitle -->
             </div><!-- /.title -->
           </div><!-- /.datetitle -->
           </div><!-- .entry-meta -->
@@ -44,7 +48,13 @@
         <div class="entry-content">
           <div class="contentpicture">
             <?php the_content(); ?>
+
+          <div class="excerpt">
             <?php the_excerpt(); ?>
+          </div><!-- /.excerpt -->            
+            <a href="" class="readmore">Read More (<?php comments_number ("$one, $more");?>)</a><br>
+            <?php the_tags(); ?>
+
           </div><!-- /.contentpicture -->
             <?php wp_link_pages(array(
               'before' => '<div class="page-link"> Pages: ',

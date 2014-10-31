@@ -37,6 +37,11 @@ img.alignright    { padding-left: 5px; }
 .clear        { width:100%; float:left; clear:both;}
 
 
+/* ------------------------
+FONTS
+------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Lora:700|Open+Sans:400italic,700italic,400,700);
+
 
 /* =============================================================================
                    Default Styling
@@ -133,12 +138,9 @@ pre {
       list-style: none;
     }
 
-
-
-
-/* =============================================================================
-                   Footer
-   ========================================================================== */
+/* ------------------------
+FOOTER
+------------------------- */
 
 footer {
   clear:both;
@@ -154,6 +156,8 @@ footer {
   padding-top: 50px;
   font-size: 35px;
   text-align: center;
+  font-family: 'Lora', serif;
+  font-weight: 700;
 }
 
 .resto {
@@ -161,6 +165,8 @@ footer {
   padding-top: 0px;
   margin: 0px;
   margin-bottom: 10px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
 }
 
 .hours {
@@ -168,6 +174,8 @@ footer {
   margin: 0px;
   margin-top: 25px;
   margin-bottom: 10px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
 }
 
 .newsletter {
@@ -175,8 +183,8 @@ footer {
   clear: both;
   position: relative;
   top: 10px;
-  // padding-top: 15px;
-  // margin: 0px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
 }
 
 .newsletter-signup {
@@ -188,6 +196,8 @@ footer {
   font-size: 12px;
   text-align: center;
   padding-top: 50px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
 }
 
 .signup {
@@ -221,6 +231,8 @@ a.signuplink:visited {
 .address, .email, .phone, .open {
   font-size: 12px;
   margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 .map {
@@ -232,6 +244,7 @@ a.signuplink:visited {
   float: left;
   margin-left: 20px;
   width: 20%;
+  // display: inline-block;
 }
 
 .contents {
@@ -400,7 +413,7 @@ p.form-allowed-tags, .nocomments { display:none; }
 
 
 /* ------------------------
-SINGLE PAGE
+BLOG/ SINGLE PAGE
 ------------------------- */
 
 .authorimg img {
@@ -411,12 +424,18 @@ SINGLE PAGE
   padding-bottom: 15px;
 }
 
+// John Doe
 .authorname {
   font-size: 24px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
 }
 
 .date {
   margin: 0px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 .title {
@@ -425,8 +444,17 @@ SINGLE PAGE
 
 .socialmedia {
   padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0 auto;
   width: 100%;
+}
+
+.fa {
+  padding: 10px;
+}
+
+.foot {
+  color: #fff;
 }
 
 .iconsmall {
@@ -438,15 +466,39 @@ SINGLE PAGE
   margin: 15px;
 }
 
+// Random Post Name: Would Go Here
 .contenttitle {
   float: left;
   border: 1px solid red;
+  font-size: 35px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
 }
 
 .contentpicture {
-  float: left;
   border: 1px solid red;
-  // width: 80%;
   margin-bottom: 40px;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+
 }
 
+.excerpt {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.authorbio {
+  width: 32%;
+  padding-top: 20px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italics;
+  line-height: 2;
+}
