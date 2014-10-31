@@ -3,8 +3,8 @@ SASS
 ----------------------------------*/
 
 // Variables
+	$lightgreen: #5ABA52;
 	$darkgreen: #055f33;
-	$lightgreen: #5aba52;
 	$white: #efdfc5;
 	$purple: #352b49;
 	$red: #f74d3c;
@@ -45,14 +45,6 @@ h2 {
 	// padding: 0 20px;
 	// background: #efdfc5; 
 } /*main headings*/
-
-.keyline {
-	width: 100%;
-	height: 0;
-	border-top: 2px solid #282828;
-	border-bottom: 2px solid #282828;
-	text-align: center;
-}
 
 h3 {
 	font-size: 35px;
