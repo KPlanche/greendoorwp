@@ -7,14 +7,45 @@
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
         <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-          <h1 class="entry-title"><?php the_title(); ?></h1>
 
-          <div class="entry-meta">
-            <?php hackeryou_posted_on(); ?>
+        <div class="authorsection">
+            <div class="entry-meta">
+            <div class="authorimg">
+              <?php echo get_avatar ("info@andrewnguyen.ca", 150); ?>
+            </div><!-- /.authorimg -->
+              <?php // hackeryou_posted_on(); ?>
+
+            <div class="authorname">
+              <?php the_author_posts_link(); ?>
+            </div><!-- /.authorname -->
+
+            <div class="socialmedia">
+              <img src="placehold.it/50x50" alt="" class="iconsmall">
+              <img src="placehold.it/50x50" alt="" class="iconsmall">
+              <img src="placehold.it/50x50" alt="" class="iconsmall">
+            </div><!-- /.socialmedia -->
+          </div><!-- /.authorsection -->
+
+       
+          <div class="datetitle">
+            <div class="date">
+              <?php the_date ('F d, Y a'); ?>
+            </div><!-- /.date -->
+
+            <div class="title">
+             <div class="contenttitle">
+              <h1 class="entry-title"><?php the_title(); ?></h1>
+             </div><!-- /.contentsection -->
+            </div><!-- /.title -->
+          </div><!-- /.datetitle -->
           </div><!-- .entry-meta -->
+       
 
-          <div class="entry-content">
+        <div class="entry-content">
+          <div class="contentpicture">
             <?php the_content(); ?>
+            <?php the_excerpt(); ?>
+          </div><!-- /.contentpicture -->
             <?php wp_link_pages(array(
               'before' => '<div class="page-link"> Pages: ',
               'after' => '</div>'
@@ -22,8 +53,7 @@
           </div><!-- .entry-content -->
 
           <div class="entry-utility">
-            <?php hackeryou_posted_in(); ?>
-            <?php edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?>
+            <?php //edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?>
           </div><!-- .entry-utility -->
         </div><!-- #post-## -->
 
@@ -31,14 +61,14 @@
           <p class="nav-previous"><?php previous_post_link('%link', '&larr; %title'); ?></p>
           <p class="nav-next"><?php next_post_link('%link', '%title &rarr;'); ?></p>
         </div><!-- #nav-below -->
-
-        <?php comments_template( '', true ); ?>
+        
+        <?php //comments_template( '', true ); ?>
 
       <?php endwhile; // end of the loop. ?>
 
     </div> <!-- /.content -->
 
-    <?php get_sidebar(); ?>
+    <?php //get_sidebar(); ?>
 
   </div> <!-- /.container -->
 </div> <!-- /.main -->
