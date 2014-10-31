@@ -95,29 +95,46 @@ h1.head-text a {
 }
 
 h2 {
+  font-family: ""
   font-size: 35px;
   text-align: center;
-  top: -19px;
-  display: inline;
-  /*position: relative;*/
-  padding: 0 20px;
-  background: #fff;
+  /*display: inline-block;*/
+  padding: 10px 15px;
+  background: #5ABA52;
+  color: #fff;
 }
 
-.keyline {
-  width: 100%;
-  height: 0;
-  border-top: 2px solid #282828;
-  border-bottom: 2px solid #282828;
+/*h2 {
+  font-size: 35px;
   text-align: center;
+  top: -25px;
+  display: inline-block;
+  position: relative;
+  padding: 0 20px;
+  width: 100%;
 }
 
-.half-content {
-  width: 48%;
-  margin: 10px;
-  float: left;
-  display: inline-block;
-}
+  h2:before {
+    content: ""; 
+    position: absolute; 
+    top: 50%;
+    width: 100%;
+    height: 0;
+    display: inline-block;
+    border-top: solid 2px #5ABA52;
+    border-bottom: solid 2px #5ABA52; 
+    left: 0;
+    z-index: -1;
+  }
+
+  h2:before {
+    right: 100%;
+  }
+
+  h2 span {
+    background: #fff;
+    padding: 0 20px;
+  }*/
 
 /* links */
 a {
