@@ -511,7 +511,7 @@ BLOG/ SINGLE PAGE
 }
 
 /* ------------------------
-HEADER TEXT STYLING
+HEAD TEXT STYLING
 ------------------------- */
 
 h2 {
@@ -541,7 +541,38 @@ h2 {
   &:after {
     margin-left: 10px;
   }
+}
 
+/* ------------------------
+HEADER STYLING
+------------------------- */
 
+.home {
+  background: #055f33;
+  color: #fff;
+  height: 100%;
+  background: url('img/website/2459846_orig.jpg')fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+img.logo {
+  width: 10%;
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+  left: 46%;
+}
+
+h1 {
+  font-family: "Lora", "Times New Roman", Times, Georgia, serif;
+  color: #282828;
+  font-size: 35px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+h1.head-text a {
+  color: #fff;
+  margin-bottom: 10px;
 }
