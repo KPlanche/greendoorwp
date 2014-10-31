@@ -203,12 +203,42 @@ footer {
   // margin: 10px;
 }
 
+// .credits {
+
+//   text-align: center;
+//   padding-top: 50px;
+
+
+// }
+
 .credits {
+
+  font-family: "Lora", "Times New Roman", Times, Georgia, serif;
   font-size: 12px;
-  text-align: center;
+  color: #fff;
   padding-top: 50px;
-  font-family: 'Lora', serif;
-  font-weight: 700;
+
+  &, &:before, &:after {
+    display: flex;
+    white-space: nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1;
+  }
+
+  &:before, &:after {
+    content: '';
+    margin: 8px 0 0 0;
+    border-top: 2px solid $lightgreen;
+  }
+
+  &:before {
+    margin-right: 10px;
+  }
+
+  &:after {
+    margin-left: 10px;
+  }
 }
 
 .signup {
