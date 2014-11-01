@@ -1,15 +1,24 @@
-<?php //index.php is the last resort template, if no other templates match ?>
-<?php get_header(); ?>
+<?php
+
+/*
+  Template Name: Full Page, No Sidebar
+*/
+
+get_header();  ?>
 
 <div class="main">
   <div class="container">
 
-    <div class="content">
-    		<?php get_template_part( 'loop', 'index' );	?>
-    </div> <!--/.content -->
+    <?php // Start the loop ?>
+    <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-    <?php get_sidebar(); ?>
+        <h2><?php the_title(); ?></h2>
 
+  <div class="aboutus">
+      <?php the_content(); ?>
+    </div><!-- /.aboutus -->
+
+    <?php endwhile; // end the loop?>
   </div> <!-- /.container -->
 </div> <!-- /.main -->
 

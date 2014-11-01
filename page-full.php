@@ -1,7 +1,7 @@
 <?php
 
 /*
-	Template Name: Full Page, No Sidebar
+  Template Name: Full Page, No Sidebar
 */
 
 get_header();  ?>
@@ -12,11 +12,11 @@ get_header();  ?>
     <?php // Start the loop ?>
     <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-      	<h2><?php the_title(); ?></h2>
+        <h2><?php the_title(); ?></h2>
 
-	<div class="aboutus">
+  <!-- <div class="content"> -->
       <?php the_content(); ?>
-    </div><!-- /.aboutus -->
+    <!-- </div> --><!-- /.aboutus -->
 
     <?php endwhile; // end the loop?>
   </div> <!-- /.container -->
