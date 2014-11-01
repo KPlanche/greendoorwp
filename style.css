@@ -213,6 +213,14 @@ img.alignright {
 /* ------------------------
 FONTS
 ------------------------- */
+h4 {
+  font-family: "Lora", "Times New Roman", Times, Georgia, serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+  color: #282828;
+}
+
 /* =============================================================================
                    Default Styling
    ========================================================================== */
@@ -741,10 +749,6 @@ BLOG/ SINGLE PAGE
 
 .foot {
   color: #fff;
-}
-
-.contacticon {
-  padding: 5px;
 }
 
 .iconsmall {
