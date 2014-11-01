@@ -19,7 +19,7 @@
 			<p class="open">Tuesday to Sunday: 11am - 9pm</p>
 			
 
-			<img src="http://placehold.it/125x75" alt="" class="trip">
+			<img src="img/bagels.jpg" alt="">
 				<div class="socialmediafooter">
 				  <i class="single foot fa fa-twitter"></i>
 				  <i class="single foot fa fa-facebook"></i>
@@ -29,10 +29,10 @@
 
 		<div class="newsletter-signup">
 			<p class="newsletter clearfix">Sign up for our newsletter</p>
-		    <div class="buttonoutside">
-		    	<!-- <input type="email" name="email" class="signuplink"> -->
-			    <button class="signup"><a href="" class="signuplink">Sign Up</a></button>
-		    </div><!-- /.buttonoutside -->
+			<div class="buttonoutside">
+				<input type="email" name="email" class="formfield" placeholder="Enter your email address">
+				<button class="signup"><a href="" class="signuplink">Sign Up</a></button>
+			</div><!-- /.buttonoutside -->
 	    </div><!-- /.newsletter-signup -->
 	    </div> <!-- /.wrapper -->
 	    <p class="credits">Template by Kristine Planche and Andrew Nguyen</p>

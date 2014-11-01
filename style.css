@@ -260,7 +260,8 @@ p {
 
 /*blockquotes*/
 blockquote {
-  background: #F7F7F7;
+  background: #fff;
+  color: #282828;
   margin: 0;
   padding: 20px;
 }
@@ -319,18 +320,6 @@ pre {
   list-style: none;
 }
 
-
-/* ------------------------
-PAGES
-------------------------- */
-
-.aboutus {
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-}
-
-
 /* ------------------------
 FOOTER
 ------------------------- */
@@ -378,6 +367,7 @@ footer {
   font-family: 'Lora', serif;
   font-weight: 700;
   text-align: left;
+  position: relative;
 }
 
 .newsletter-signup {
@@ -416,7 +406,8 @@ footer {
   border: 1px solid #5aba52;
   padding: 5px;
   border-radius: 5px;
-  float: right;
+  position: relative;
+  left: -82px;
 }
 
 a.signuplink:visited {
@@ -430,13 +421,8 @@ a.signuplink:visited {
 }
 
 .buttonoutside {
-  background: #fff;
-  border: 2px solid #5aba52;
-  padding: 5px;
-  padding-bottom: 35px;
-  width: 65%;
-  border-radius: 5px;
   position: relative;
+  left: -96px;
 }
 
 .address, .email, .phone, .open {
@@ -479,6 +465,15 @@ a.signuplink:visited {
 
 .trip {
   padding-top: 10px;
+}
+
+.formfield {
+  background: #fff;
+  border: 2px solid #5aba52;
+  padding: 12.5px;
+  width: 65%;
+  border-radius: 5px;
+  position: relative;
 }
 
 /* =============================================================================
