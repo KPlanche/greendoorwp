@@ -751,6 +751,10 @@ BLOG/ SINGLE PAGE
   color: #fff;
 }
 
+.contacticon {
+  padding: 5px;
+}
+
 .iconsmall {
   margin: 5px;
 }
