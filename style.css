@@ -319,6 +319,18 @@ pre {
   list-style: none;
 }
 
+
+/* ------------------------
+PAGES
+------------------------- */
+
+.aboutus {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+
 /* ------------------------
 FOOTER
 ------------------------- */
