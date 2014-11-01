@@ -96,6 +96,7 @@ a:hover {
 /* paragraphs */
 p {
   line-height: 1.5;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Verdana, sans-serif;
 }
 
 /*blockquotes*/
@@ -338,10 +339,13 @@ a.signuplink:visited {
       ul.menu li a {
         font-family: "Lora", "Times New Roman", Times, Georgia, serif;
         font-weight: 700;
-        background:#fff;
-        padding:10px;
-        color:#055f33;
-        border-radius: 5px;
+        color:#fff;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+
+        &:hover {
+          text-decoration: underline;
+          color: $lightgreen;
+        }
       }
 
 
@@ -608,9 +612,9 @@ HEADER STYLING
 
 .home {
   background: #055f33;
-  color: #fff;
+  // color: #fff;
   height: 100%;
-  background: url('img/website/2459846_orig.jpg')fixed;
+  background: url('img/darkheader.jpg')fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -626,7 +630,8 @@ img.logo {
 h1 {
   font-family: "Lora", "Times New Roman", Times, Georgia, serif;
   color: #282828;
-  font-size: 35px;
+  font-size: 50px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
   text-align: center;
   padding: 0 20px;
 }
@@ -634,4 +639,10 @@ h1 {
 h1.head-text a {
   color: #fff;
   margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $lightgreen;
+  }
 }
