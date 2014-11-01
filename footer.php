@@ -11,13 +11,13 @@
 	    <div class="info">
 		    <h6 class="resto">The Green Door</h6>
 			<p class="address">198 Main Street, Ottawa, K1S 1C6</p>
-			<p class="phone">(613) 234-9597</p>
-			<p class="phone">(613) 234-6771</p>
-			<p class="email">info@thegreendoor.ca</p>
+			<p class="phone"><i class="contacticon foot fa fa-phone"></i></i>(613) 234-9597</p>
+			<p class="email"><i class="contacticon foot fa fa-envelope"></i></i>info@thegreendoor.ca</p>
 
 		    <h6 class="hours">Hours</h6>
-			<p class="open">Tuesday to Sunday 11am - 9pm</p>
-			<p class="open">Monday - Closed</p>
+		    <p class="open">Monday: Closed</p>
+			<p class="open">Tuesday to Sunday: 11am - 9pm</p>
+			
 
 			<img src="http://placehold.it/125x75" alt="" class="trip">
 				<div class="socialmediafooter">
@@ -30,6 +30,7 @@
 		<div class="newsletter-signup">
 			<p class="newsletter clearfix">Sign up for our newsletter</p>
 		    <div class="buttonoutside">
+		    	<!-- <input type="email" name="email" class="signuplink"> -->
 			    <button class="signup"><a href="" class="signuplink">Sign Up</a></button>
 		    </div><!-- /.buttonoutside -->
 	    </div><!-- /.newsletter-signup -->
