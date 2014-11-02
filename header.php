@@ -18,8 +18,6 @@
 <header class="home">
   <div class="container">
 
-    <img class="logo" src="wp-content/themes/greendoor/img/door-white.png" alt="logo">
-
     <h1 class="head-text">
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
         <?php bloginfo( 'name' ); ?>

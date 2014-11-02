@@ -101,12 +101,12 @@ body {
 
 /* links */
 a {
-  color:#BA209B;
+  color: $black;
   text-decoration: none;
 }
 
 a:hover {
-  color: #D424B1;
+  color: $lightgreen;
 }
 
 /* paragraphs */
@@ -573,7 +573,6 @@ BLOG/ SINGLE PAGE
 
 .authordesc {
   width: 65%;
-  float: right;
   position: relative;
   display: inline-block;
 }
@@ -594,6 +593,20 @@ BLOG/ SINGLE PAGE
 .socialmedia {
   margin: 0 auto;
   width: 100%;
+}
+
+.socialmediafooter {
+  a {
+    color: #fff;
+  }
+
+  &:hover {
+    color: $lightgreen;
+  }
+
+  &:visited {
+    color: #fff;
+  }
 }
 
 .fa {
@@ -683,7 +696,7 @@ h1 {
   font-size: 50px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
   text-align: center;
-  padding: 0 20px;
+  padding: 40px 20px;
 }
 
 h1.head-text a {
