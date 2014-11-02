@@ -895,6 +895,7 @@ HEADER STYLING
 .home {
   background: #055f33;
   height: 100%;
+  padding-top: 100px;
   background: url("img/darkheader.jpg") fixed;
   background-repeat: no-repeat;
   background-size: cover;
