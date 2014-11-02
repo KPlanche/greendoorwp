@@ -262,12 +262,12 @@ body {
 
 /* links */
 a {
-  color: #282828;
+  color: #5aba52;
   text-decoration: none;
 }
 
 a:hover {
-  color: #5aba52;
+  color: #282828;
 }
 
 /* paragraphs */
@@ -340,10 +340,10 @@ pre {
   list-style: none;
 }
 .sidebar ul li a {
-  color: #282828;
+  color: #5aba52;
 }
 .sidebar ul li a:hover {
-  color: #5aba52;
+  color: #282828;
 }
 
 .major h2 {
@@ -445,13 +445,7 @@ footer {
   position: relative;
   left: -82px;
 }
-
-a.signuplink:visited {
-  color: #fff;
-  text-decoration: none;
-}
-
-a.signuplink:visited {
+.signup a:visited {
   color: #fff;
   text-decoration: none;
 }
