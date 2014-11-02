@@ -11,8 +11,8 @@
 	    <div class="info">
 		    <h6 class="resto">The Green Door</h6>
 			<p class="address">198 Main Street, Ottawa, K1S 1C6</p>
-			<p class="phone"><i class="contacticon foot fa fa-phone"></i></i>(613) 234-9597</p>
-			<p class="email"><i class="contacticon foot fa fa-envelope"></i></i>info@thegreendoor.ca</p>
+			<p class="phone"><i class="contacticon foot fa fa-phone"></i><a href="tel:6132349597">(613) 234-9597</a></p>
+			<p class="email"><i class="contacticon foot fa fa-envelope"></i><a href="mailto:info@thegreendoor.ca">info@thegreendoor.ca</a></p>
 
 		    <h6 class="hours">Hours</h6>
 		    <p class="open">Monday: Closed</p>
@@ -21,9 +21,9 @@
 
 			<img src="img/bagels.jpg" alt="">
 				<div class="socialmediafooter">
-				  <i class="single foot fa fa-twitter"></i>
-				  <i class="single foot fa fa-facebook"></i>
-				  <i class="single foot fa fa-instagram"></i>
+				  <a href="https://twitter.com/greendoorfood"><i class="single foot fa fa-twitter"></i></a>
+				  <a href="https://www.facebook.com/TheGreenDoorVegetarianRestaurant"><i class="single foot fa fa-facebook"></i></a>
+				  <a href="http://instagram.com/thegreendoorrestaurant"><i class="single foot fa fa-instagram"></i></a>
 				</div><!-- /.socialmedia -->
 		</div><!-- /.info -->
 
