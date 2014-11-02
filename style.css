@@ -272,13 +272,14 @@ p {
 
 /*blockquotes*/
 blockquote {
-  background: #fff;
-  color: #282828;
   margin: 0;
   padding: 20px;
 }
-
 blockquote p {
+  font-family: "Lora", "Times New Roman", Times, Georgia, serif;
+  font-size: 20px;
+  color: #282828;
+  text-align: center;
   margin-top: 0;
 }
 
@@ -331,6 +332,16 @@ pre {
 
 .sidebar ul li {
   list-style: none;
+}
+.sidebar ul li a {
+  color: #282828;
+}
+.sidebar ul li a:hover {
+  color: #5aba52;
+}
+
+.major h2 {
+  font-size: 18px;
 }
 
 /* ------------------------

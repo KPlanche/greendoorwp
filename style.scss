@@ -87,7 +87,10 @@ body {
   float:left;
   width:65%;
   margin-right: 5%;
+}
 
+.aboutus {
+  //background: #fff;
 }
 
 .full {
@@ -112,15 +115,18 @@ p {
 
 /*blockquotes*/
 blockquote {
-  background: #fff;
-  color: $black;
   margin:0;
   padding:20px;
-}
-  blockquote p {
-    margin-top: 0;
-  }
 
+  p {
+    font-family: "Lora", "Times New Roman", Times, Georgia, serif;
+    font-size: 20px;
+    color: $black;
+    text-align: center;
+    margin-top: 0;
+    //background: #fff;
+  }
+}
 /*tables*/
 table td {
   padding:10px;
@@ -166,7 +172,19 @@ pre {
   }
     .sidebar ul li {
       list-style: none;
+
+      a {
+        color: $black;
+
+        &:hover {
+          color: $lightgreen;
+        }
+      }
     }
+
+.major h2 {
+  font-size: 18px;
+}
 
 /* ------------------------
 FOOTER
@@ -305,6 +323,7 @@ a.signuplink:visited {
   width: 100%;
   margin: 0 auto;
   padding-top: 40px;
+  //background: #fff;
 }
 
 .wrapper {
