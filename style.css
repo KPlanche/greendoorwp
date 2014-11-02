@@ -272,13 +272,14 @@ p {
 
 /*blockquotes*/
 blockquote {
-  background: #fff;
-  color: #282828;
   margin: 0;
   padding: 20px;
 }
-
 blockquote p {
+  font-family: "Lora", "Times New Roman", Times, Georgia, serif;
+  font-size: 20px;
+  color: #282828;
+  text-align: center;
   margin-top: 0;
 }
 
