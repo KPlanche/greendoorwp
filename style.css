@@ -363,6 +363,11 @@ footer {
   color: #fff;
 }
 
+.phone:visited,
+.email:visited {
+  color: #fff;
+}
+
 .contactus {
   padding-top: 50px;
   font-size: 35px;
