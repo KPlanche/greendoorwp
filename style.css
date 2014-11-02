@@ -332,6 +332,16 @@ pre {
 .sidebar ul li {
   list-style: none;
 }
+.sidebar ul li a {
+  color: #282828;
+}
+.sidebar ul li a:hover {
+  color: #5aba52;
+}
+
+.major h2 {
+  font-size: 18px;
+}
 
 /* ------------------------
 FOOTER

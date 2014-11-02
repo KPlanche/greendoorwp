@@ -166,7 +166,19 @@ pre {
   }
     .sidebar ul li {
       list-style: none;
+
+      a {
+        color: $black;
+
+        &:hover {
+          color: $lightgreen;
+        }
+      }
     }
+
+.major h2 {
+  font-size: 18px;
+}
 
 /* ------------------------
 FOOTER
