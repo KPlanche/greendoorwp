@@ -213,6 +213,17 @@ img.alignright {
 /* ------------------------
 FONTS
 ------------------------- */
+h3 {
+  font-family: "Lora", "Times New Roman", Times, Georgia, serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #282828;
+}
+
+h3.entry-title {
+  margin-top: 10px;
+}
+
 h4 {
   font-family: "Lora", "Times New Roman", Times, Georgia, serif;
   font-weight: bold;
@@ -310,6 +321,7 @@ pre {
 .sidebar {
   width: 30%;
   float: left;
+  margin-top: 40px;
 }
 
 .sidebar ul {
@@ -569,6 +581,7 @@ h3#comments-title {
 .comment-meta {
   font-size: 12px;
   margin: 0 0 5px;
+  background: #e7e7e7;
 }
 
 .comment-meta a:link, .comment-meta a:visited {
@@ -721,36 +734,57 @@ p.form-allowed-tags, .nocomments {
 /* ------------------------
 BLOG/ SINGLE PAGE
 ------------------------- */
+.authorinfo {
+  float: left;
+  width: 30%;
+  margin-right: 10px;
+  display: inline-block;
+  position: relative;
+}
+
 .authorimg img {
   border-radius: 50%;
+  text-align: center;
 }
 
 .authorimg {
   padding-bottom: 15px;
+  text-align: center;
 }
 
 .authorname {
   font-size: 24px;
   font-family: 'Lora', serif;
   font-weight: 700;
+  text-align: center;
+}
+
+.authorbio {
+  padding: 5px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italics;
+  line-height: 2;
+  text-align: center;
+}
+
+.datetitle {
+  clear: both;
 }
 
 .date {
-  margin: 0px;
+  margin-top: 40px;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
-.title {
-  margin: 0px;
-}
-
 .socialmedia {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
   margin: 0 auto;
   width: 100%;
+  text-align: center;
 }
 
 .fa {
@@ -769,44 +803,16 @@ BLOG/ SINGLE PAGE
   margin: 5px;
 }
 
-.authorsection {
-  float: left;
-  margin: 15px;
-}
-
-.contenttitle {
-  float: left;
-  border: 1px solid red;
-  font-size: 35px;
-  font-family: 'Lora', serif;
-  font-weight: 700;
-}
-
-.contentpicture {
-  border: 1px solid red;
-  margin-bottom: 40px;
-  display: inline-block;
-  width: 100%;
-  margin: 0 auto;
-  font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-}
-
 .excerpt {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
-.authorbio {
-  width: 32%;
-  padding-top: 20px;
-  font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-style: italics;
-  line-height: 2;
+.bloginfo {
+  width: 65%;
+  display: inline-block;
+  position: relative;
 }
 
 /* ------------------------
