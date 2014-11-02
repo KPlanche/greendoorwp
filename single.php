@@ -27,9 +27,30 @@
           </div><!-- .entry-utility -->
         </div><!-- #post-## -->
 
-        <div class="authorinfo">
-        <?php echo get_avatar(get_the_author_meta('ID'), 50); ?><?php the_author_posts_link(); ?>
-        </div>
+        <div class="aboutauthor">
+
+          <div class="authorinfo">
+            <div class="authorimg"><?php echo get_avatar(get_the_author_meta('ID'), 100); ?></div>
+
+            <div class="authorname"><?php the_author_posts_link(); ?></div>
+          </div> <!-- /.authorinfo -->
+
+          <div class="authordesc">
+
+            <div class="authorbio">
+              <?php echo get_the_author_meta("description"); ?>
+            </div><!-- /.authorbio -->
+
+            <div class="socialmedia">
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-instagram"></i>
+            </div><!-- /.socialmedia -->
+
+          </div> <!-- /.authordesc -->
+
+        </div> <!-- /.aboutauthor -->
+
 
         <div id="nav-below" class="navigation">
           <p class="nav-previous"><?php previous_post_link('%link', '&larr; %title'); ?></p>
