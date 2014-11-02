@@ -1,4 +1,4 @@
-<footer>
+<footer class="mainfooter">
   <div class="container clearfix">
     <h2 class="contactus">Contact Us</h2>
 
