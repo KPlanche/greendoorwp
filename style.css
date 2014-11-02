@@ -769,6 +769,7 @@ BLOG/ SINGLE PAGE
   margin-right: 10px;
   display: inline-block;
   position: relative;
+  vertical-align: top;
 }
 
 .authorimg img {
@@ -806,6 +807,7 @@ BLOG/ SINGLE PAGE
   width: 65%;
   position: relative;
   display: inline-block;
+  vertical-align: top;
 }
 
 .datetitle {
