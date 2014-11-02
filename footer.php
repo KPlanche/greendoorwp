@@ -18,8 +18,14 @@
 		    <p class="open">Monday: Closed</p>
 			<p class="open">Tuesday to Sunday: 11am - 9pm</p>
 			
+			<?php //tripadvisor widget ?>
 
-			<img src="img/bagels.jpg" alt="">
+			<div class="widget">
+				<div id="TA_certificateOfExcellence718" class="TA_certificateOfExcellence">
+					<a target="_blank" href="http://www.tripadvisor.ca/Restaurant_Review-g155004-d704713-Reviews-Green_Door-Ottawa_Ontario.html"><img src="http://www.tripadvisor.com/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="tripadvisor" id="CDSWIDCOELOGO"/></a>
+				</div>
+			</div><!-- /.widget -->
+		
 				<div class="socialmediafooter">
 				  <a href="https://twitter.com/greendoorfood"><i class="single foot fa fa-twitter"></i></a>
 				  <a href="https://www.facebook.com/TheGreenDoorVegetarianRestaurant"><i class="single foot fa fa-facebook"></i></a>
